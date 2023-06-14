@@ -6,6 +6,10 @@
     border: none;
 }
 
+header {
+    background-color: rgb(39, 36, 36);
+}
+
 body {
     font-family: Karma, serif;
     font-weight: 300;
@@ -17,7 +21,17 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #008000;
+    text-shadow: 2px 2px 5px white;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #008000;
     text-shadow: 2px 2px 5px green;
+    text-align: center;
 }
 
 #logo {
@@ -34,4 +48,23 @@ h1 {
     width: 100%;
     background: url(../images/knockma-hero.jpg) ;
     background-size: cover;
+}
+
+footer {
+    height: 50px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: #008000;
 }
